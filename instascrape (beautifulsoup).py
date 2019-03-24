@@ -27,12 +27,9 @@ array to retry later on.
 
 For some reason, when retried in a smaller batch, the urls behave fine.
 
-Goddamn. Idk what causes these errors, but this is the best fix. Code isn't super
+Idk what causes these errors, but this is the best fix. Code isn't super
 fast, but should scrape instagram pages fairly completely and downloads it into
 a folder, named by the insta account.
-
-
-
 
 '''
 
