@@ -39,7 +39,7 @@ i = 1
 
 # Take URL and launch chromedriver from selenium (installed using choco)
 url = input("\nPaste the EXACT URL of the OPEN instagram profile you want to scrape from: ")
-driver = webdriver.Chrome()
+driver = webdriver.Chrome()  # need to install chromedriver first, prefereably thru package manager like choco
 driver.get(url) #accesses url thru webdriver
 
 # init arrays for later use 
